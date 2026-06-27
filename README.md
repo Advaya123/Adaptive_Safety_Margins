@@ -1,9 +1,5 @@
 # Adaptive Safety Margins (ASM): A Curriculum Approach to Recovery RL
 
-**Institution:** International Institute of Information Technology, Bangalore (IIIT-Bangalore)  
-**Location:** Bengaluru, Karnataka  
-**Roll Number:** BT2024227  
-
 ## Overview
 Safe Reinforcement Learning (RL) requires agents to maximize task performance while satisfying hard safety constraints. Standard Recovery RL utilizes a fixed safety threshold ($\epsilon$) to switch between a task policy and a recovery policy. However, static thresholds force a trade-off: conservative values severely restrict exploration ("frozen robot" syndrome), while aggressive values lead to frequent safety violations.
 
